@@ -2,7 +2,7 @@ package br.com.sisvenda.model;
 
 public class Cliente {
 			
-	//atributo 
+	//atributos
 	private Integer id;
 	private String nome;
 	private String documento;
@@ -10,6 +10,7 @@ public class Cliente {
 	
 	//Construtor vazio - padrao
 	public Cliente() {}
+	
 			
 
 	public Cliente(Integer id, String nome, String documento) {
